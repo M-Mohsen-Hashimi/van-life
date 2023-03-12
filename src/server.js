@@ -70,7 +70,6 @@ createServer({
 
 	routes() {
 		this.namespace = 'api'
-		this.logging = false
 
 		this.get('/vans', (schema, request) => {
 			return schema.vans.all()
